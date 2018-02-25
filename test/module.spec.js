@@ -7,7 +7,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { expect } from 'chai';
 import * as locationState from '../src';
 
-describe('redux-location-state', () => {
+describe('redux-location-middleware', () => {
   it('should work correctly', async () => {
     jsdom.reconfigure({ url: 'https://somehost.com/path/to/somewhere?a=1&b=2&b=3&c=4#hash' });
 

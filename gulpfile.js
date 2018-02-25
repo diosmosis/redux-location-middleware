@@ -17,7 +17,7 @@ const $ = loadPlugins();
 const config = manifest.babelBoilerplateOptions;
 const mainFile = manifest.main;
 const destinationFolder = 'dist';
-const exportFileName = 'redux-location-state';
+const exportFileName = 'redux-location-middleware';
 
 function cleanDist(done) {
   del([destinationFolder]).then(() => done());
