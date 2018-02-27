@@ -2,7 +2,7 @@
   "name": "redux-location-middleware",
   "version": "0.1.0",
   "description": "Simple reducer that makes the URL accessible & updateable via redux state.",
-  "main": "index.js",
+  "main": "redux-location-middleware.js",
   "scripts": {
     "test": "gulp",
     "lint": "gulp lint",

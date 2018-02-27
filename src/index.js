@@ -19,7 +19,7 @@ export { default as reducer } from './reducer';
 export const DEFAULT_STATE_PROPERTY = 'location';
 
 export function middleware({ getState, dispatch }) {
-  bindEvents(dispatch); // TODO: how often does this get called?
+  bindEvents(dispatch);
 
   return next => (action) => {
     const result = next(action);
